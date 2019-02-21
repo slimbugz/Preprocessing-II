@@ -6,6 +6,8 @@ button {
   margin-top: 10px;
   cursor: pointer;
   outline: none;
+  border: none;
+  border-radius: 10px;
 }
 @media ( max-width: 500px ) {
   button {
