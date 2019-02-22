@@ -1,1 +1,61 @@
 // Navigation Styles here
+
+
+// nav
+// header
+
+
+header {
+    margin-top: 20px; 
+    width: 100%;
+    display: flex;
+
+    @media @mobile {
+        // flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        .logo {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
+}
+
+
+header nav {
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: 300px;
+    justify-content: flex-end;
+    justify-content: space-between;
+    // text-align: right;
+    // text-justify: auto;
+    display: flex;
+    font-size: 15px;
+
+    @media @mobile {
+        width: 100%;
+        justify-content: center;
+
+    }
+}
+
+header nav a {
+    text-decoration: none;
+    color: #b0b0b0;
+
+    @media @mobile {
+        margin: 0px 15px;
+
+    }
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
